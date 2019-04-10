@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RectTestView">
+        <attr name="a" format="boolean"/>
+        <attr name="or">
+            <enum name="v" value="1"/>
+            <enum name="h" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
