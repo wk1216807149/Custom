@@ -15,7 +15,8 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.wuli.custom.Tools.WLog;
+import com.wuli.utils.WLog;
+
 
 /**
  * <pre>
