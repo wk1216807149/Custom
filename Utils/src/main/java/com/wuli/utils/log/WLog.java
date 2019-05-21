@@ -1,4 +1,4 @@
-package com.wuli.utils;
+package com.wuli.utils.log;
 
 import android.support.annotation.NonNull;
 import android.util.Log;
