@@ -22,14 +22,14 @@ public class FileUtils {
     public static int ModeWriteable=Context.MODE_WORLD_WRITEABLE;
     public static int ModeProcess=Context.MODE_MULTI_PROCESS;
 
-    private static SharedPreferences sharedPreferences=null;
+    private SharedPreferences sharedPreferences=null;
 
-    public static void createSharedPreferences(Context context,String str,int mod){
+    public void createSharedPreferences(Context context,String str,int mod){
         sharedPreferences=context.getSharedPreferences(str,mod);
 
     }
 
-    public static void saveDataSharedPreferences(String name,Object object){
+    public void saveDataSharedPreferences(String name,Object object){
         SharedPreferences.Editor editor=sharedPreferences.edit();
         if(object instanceof String){
             editor.putString(name,(String) object);
@@ -47,7 +47,7 @@ public class FileUtils {
         editor.commit();
     }
 
-    public static Object getDataSharedPreferences(String name,Object object){
+    public Object getDataSharedPreferences(String name,Object object){
         if(object instanceof String){
             return sharedPreferences.getString(name,(String)object);
         }else if(object instanceof Integer){
