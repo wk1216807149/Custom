@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         mContext=getApplicationContext();
         nitificationTest();
 
+
     }
     public void nitificationTest(){
         NotificationCompat.Builder builder=new NotificationCompat.Builder(this).setSmallIcon(R.drawable.ic_launcher_background);
