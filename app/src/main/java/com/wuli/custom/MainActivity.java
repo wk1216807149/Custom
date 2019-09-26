@@ -24,5 +24,6 @@ public class MainActivity extends AppCompatActivity {
         Notification notification=builder.build();
         NotificationManager notificationManager=(NotificationManager)mContext.getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(200,notification);
+
     }
 }
