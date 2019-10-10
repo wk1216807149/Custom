@@ -6,14 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.wuli.custom.customView.RectTestView
-        android:layout_width="200px"
-        android:layout_height="500px"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="250px"
-        android:layout_marginTop="250px"/>
+    <!--<com.wuli.custom.customView.RectTestView-->
+        <!--android:layout_width="200px"-->
+        <!--android:layout_height="500px"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--android:layout_marginLeft="250px"-->
+        <!--android:layout_marginTop="250px"/>-->
+    <com.wuli.custom.customView.TimeTestView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"/>
 
 </android.support.constraint.ConstraintLayout>
